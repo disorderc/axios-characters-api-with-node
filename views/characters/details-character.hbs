@@ -1,6 +1,13 @@
-<h2>Details of {{ character.name }}</h2>
+<div class="container" class="editPage">
+    <h2>Details of {{ character.name }}</h2>
+
+    <hr>
+
+    <h3> Occupation: {{ character.occupation }} </h3>
+
+    <p> Weapon: {{ character.weapon }} </p>
 
 
-<h3> Occupation: {{ character.occupation }} </h3>
+    <a href="/edit/{{character.id}}" class="btn btn-success">Edit character</a>
 
-<p> Weapon: {{ character.weapon }} </p>
+</div>

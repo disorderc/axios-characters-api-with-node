@@ -2,6 +2,8 @@
 
 <ul>
     {{#each characters }}
-        <li> <a href="/characters/{{id}}"> {{ name }} </a></li>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item"> <a href="/characters/{{id}}" class="link-warning"> {{ name }}> </li>
+    </ul>
     {{/each}}
 </ul>
